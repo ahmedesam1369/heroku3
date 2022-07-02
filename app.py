@@ -6,16 +6,16 @@ app = Flask(__name__)
 def home():
     return 'Hello'
 
-@app.route('/api', methods = ['GET'])
-def returnascii():
-    d = {}
-    inputchar = str(request.args['query'])
-    # inputchar = 'a'
-    # csac
-    answer = str(ord(inputchar))
-    d['output'] = answer
+# @app.route('/api', methods = ['GET'])
+# def returnascii():
+#     d = {}
+#     inputchar = str(request.args['query'])
+#     # inputchar = 'a'
+#     # csac
+#     answer = str(ord(inputchar))
+#     d['output'] = answer
     
-    return d
+#     return d
 
 
 
