@@ -11,6 +11,7 @@ def returnascii():
     d = {}
     inputchar = str(request.args['query'])
     # inputchar = 'a'
+    # csac
     answer = str(ord(inputchar))
     d['output'] = answer
     
